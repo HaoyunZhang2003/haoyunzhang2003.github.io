@@ -9,89 +9,79 @@ redirect_from:
 ---
 
 <section class="intro" id="about">
-  <p class="eyebrow">Biomedical AI · Multimodal Learning · Computational Biology</p>
-  <h1>Developing reliable and interpretable AI across <span>biological</span> and <span>clinical</span> data.</h1>
-  <p class="intro-copy">I am an M.S. student in Biomedical Engineering at the <a href="https://bme.umich.edu/" target="_blank" rel="noopener">University of Michigan</a>. My research spans multimodal learning, single-cell bioinformatics, computational pathology, and medical imaging.</p>
-  <p class="intro-copy">Across five research experiences, I have worked with data ranging from patient records and CT scans to histology and single cells, with the goal of building computational methods that remain biologically meaningful and clinically useful.</p>
+  <p class="section-kicker">About</p>
+  <h1>About</h1>
+  <p class="intro-copy">Hi! I am an M.S. student in Biomedical Engineering at the <a href="https://bme.umich.edu/" target="_blank" rel="noopener">University of Michigan</a>. Before coming to Ann Arbor, I received my B.Eng. in Biomedical Engineering, with a minor in Mathematics and Applied Mathematics, from <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a> in 2025.</p>
+  <p class="intro-copy">My research primarily focuses on AI for healthcare, computational biology, and medical imaging. As an AI-for-medicine researcher, I hope to bridge the gap between AI and medicine and make a meaningful impact on healthcare.</p>
   <div class="intro-actions">
-    <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+    <a class="button button-primary" href="#research">Research</a>
     <a class="button button-quiet" href="/files/Haoyun_Zhang_CV.pdf">Download CV</a>
-  </div>
-  <div class="focus-strip" aria-label="Research focus areas">
-    <div><span>01</span><strong>Multimodal learning</strong><small>Aligning heterogeneous biomedical data</small></div>
-    <div><span>02</span><strong>Computational genomics</strong><small>Single-cell and spatial molecular analysis</small></div>
-    <div><span>03</span><strong>Clinical translation</strong><small>Interpretable models for real clinical problems</small></div>
   </div>
 </section>
 
 <section class="section" id="news">
   <div class="section-heading">
-    <p class="section-kicker">Now</p>
-    <h2>Recent updates</h2>
+    <p class="section-kicker">Updates</p>
+    <h2>Recent news</h2>
   </div>
   <div class="news-list">
+    <article><time>2026.06</time><p>Began a new research direction on patient similarity and retrieval with Prof. Joyce Yanran Wang.</p></article>
     <article><time>2025.08</time><p>Began the M.S. in Biomedical Engineering at the University of Michigan.</p></article>
-    <article><time>2025.06</time><p>Began a new research direction on patient similarity and retrieval with Prof. Joyce Yanran Wang.</p></article>
     <article><time>2025.05</time><p>Our multicenter, multimodal IPF prognosis study was presented in <em>AJRCCM</em>.</p></article>
     <article><time>2024.11</time><p><em>easySCF</em> was published in <em>Bioinformatics</em>.</p></article>
   </div>
 </section>
 
 <section class="section" id="research">
-  <div class="section-heading split-heading">
-    <div><p class="section-kicker">Five experiences</p><h2>Research experience</h2></div>
-    <p>My work connects machine learning with biomedical questions across clinical data, single-cell omics, histopathology, and medical imaging.</p>
+  <div class="section-heading">
+    <p class="section-kicker">Research</p>
+    <h2>Research</h2>
+    <p class="section-intro">My work spans clinical data, single-cell omics, histopathology, and medical imaging, with an emphasis on computational methods that are biologically grounded and clinically useful.</p>
   </div>
 
-  <div class="research-grid">
-    <article class="research-card research-new">
-      <div class="research-body">
-        <p class="research-meta">University of Michigan · 2025—Present</p>
-        <h3>Patient Similarity & Retrieval <span class="status-badge">New direction</span></h3>
-        <p>I recently began exploring patient similarity and retrieval under the supervision of Prof. Joyce Yanran Wang. This project is still at an early stage; more details will be added as the work develops.</p>
+  <div class="research-list">
+    <article class="research-entry">
+      <time>2026.06—Present</time>
+      <div>
+        <h3>Patient Similarity & Retrieval <span class="status-badge">New</span></h3>
+        <p class="research-affiliation">University of Michigan · Prof. Joyce Yanran Wang</p>
+        <p>This is a newly started research direction. More details will be added as the project develops.</p>
       </div>
     </article>
 
-    <article class="research-card">
-      <div class="research-visual cell-visual" aria-hidden="true">
-        <div class="cell-orbit orbit-one"></div><div class="cell-orbit orbit-two"></div><div class="cell-core">64</div>
-        <span class="module m1"></span><span class="module m2"></span><span class="module m3"></span><span class="module m4"></span><span class="module m5"></span><span class="module m6"></span>
-      </div>
-      <div class="research-body">
-        <p class="research-meta">University of Michigan · 2025—Present</p>
-        <h3>Biology-Informed Multimodal Alignment</h3>
-        <p>FineCLS decomposes each cell into 64 biology-defined modules, producing interpretable embeddings and calibrated confidence signals for cross-modal retrieval.</p>
-        <div class="tags"><span>Single-cell foundation models</span><span>Multimodal alignment</span></div>
+    <article class="research-entry">
+      <time>2025.01—Present</time>
+      <div>
+        <h3>Biology-Informed Multimodal Alignment of Single-Cell Foundation Models</h3>
+        <p class="research-affiliation">University of Michigan · Prof. Jie Liu</p>
+        <p>Developing FineCLS, which organizes multimodal single-cell representations into 64 biology-defined modules for interpretable cross-modal alignment and confidence estimation.</p>
       </div>
     </article>
 
-    <article class="research-card">
-      <img class="research-image research-image-contain" src="/images/histology-cnv.png" alt="Spatial clustering and phylogenetic analysis used in histology-based CNV inference">
-      <div class="research-body">
-        <p class="research-meta">Garmire Group, University of Michigan · 2024</p>
+    <article class="research-entry">
+      <time>2024.08—2024.12</time>
+      <div>
         <h3>GNN-Based Inference of CNV from Histopathology</h3>
-        <p>Investigated copy-number variation inferred from H&amp;E images through spatial clustering, phylogenetic trees, cell trajectories, and pathway analysis.</p>
-        <div class="tags"><span>Computational pathology</span><span>Spatial analysis</span><span>Cancer genomics</span></div>
+        <p class="research-affiliation">University of Michigan · Prof. Lana Garmire</p>
+        <p>Studied copy-number variation prediction from H&amp;E images and performed downstream phylogenetic, cell-trajectory, and pathway analyses.</p>
       </div>
     </article>
 
-    <article class="research-card">
-      <img class="research-image" src="/images/ipf-prognosis.png" alt="ROC curves for one-, two-, and three-year IPF survival prediction">
-      <div class="research-body">
-        <p class="research-meta">SJTU & Shanghai Chest Hospital · 2023—2025</p>
-        <h3>Multimodal Prognostic Modeling for IPF</h3>
-        <p>Combined clinical indicators with CT imaging features to improve one-, two-, and three-year survival prediction, in close collaboration with physicians.</p>
-        <div class="tags"><span>Survival analysis</span><span>3D imaging</span><span>Clinical translation</span></div>
+    <article class="research-entry">
+      <time>2023.04—2025.08</time>
+      <div>
+        <h3>Machine-Learning Prognostic Modeling for Idiopathic Pulmonary Fibrosis</h3>
+        <p class="research-affiliation">SJTU & Shanghai Chest Hospital · Dr. Feng Li and Prof. Jianqi Sun</p>
+        <p>Built an interpretable multimodal prognosis pipeline combining clinical indicators and CT imaging features in close collaboration with physicians.</p>
       </div>
     </article>
 
-    <article class="research-card">
-      <img class="research-image research-image-contain" src="/images/easyscf-workflow.jpg" alt="easySCF cross-language single-cell data workflow and timing comparison">
-      <div class="research-body">
-        <p class="research-meta">Shanghai Jiao Tong University · 2023—2024</p>
+    <article class="research-entry">
+      <time>2023.10—2024.03</time>
+      <div>
         <h3>Development of Single-Cell Bioinformatics Packages</h3>
-        <p>Developed a unified, efficient data format for moving large single-cell datasets between R and Python workflows, leading to the first-authored <em>easySCF</em> publication.</p>
-        <div class="tags"><span>R / Python</span><span>Tool building</span><span>Scalable bioinformatics</span></div>
+        <p class="research-affiliation">Shanghai Jiao Tong University School of Medicine · Prof. An Qin</p>
+        <p>Developed an efficient data format for interoperable R and Python single-cell workflows, leading to the first-authored <em>easySCF</em> publication.</p>
       </div>
     </article>
   </div>
@@ -143,44 +133,24 @@ redirect_from:
   <p class="footnote">* Equal contribution.</p>
 </section>
 
-<section class="section" id="experience">
-  <div class="section-heading"><p class="section-kicker">Trajectory</p><h2>Experience & education</h2></div>
-  <div class="timeline">
-    <article>
-      <div class="timeline-date">2025—2027</div><div class="timeline-mark maize">M</div>
-      <div><h3>University of Michigan</h3><p>M.S. in Biomedical Engineering · GPA 4.0/4.0</p><small>Research with Prof. Joyce Yanran Wang and Prof. Jie Liu</small></div>
-    </article>
-    <article>
-      <div class="timeline-date">2025</div><div class="timeline-mark fosun">F</div>
-      <div><h3>Fosun</h3><p>Algorithm Engineer Intern · Deep Learning for Ultrasound</p><small>Lung-ultrasound video models, TensorRT deployment, and edge inference</small></div>
-    </article>
-    <article>
-      <div class="timeline-date">2024</div><div class="timeline-mark michigan">M</div>
-      <div><h3>Garmire Group, University of Michigan</h3><p>Research Assistant · Computational Pathology</p><small>CNV inference from H&amp;E histology and downstream biological analysis</small></div>
-    </article>
-    <article>
-      <div class="timeline-date">2021—2025</div><div class="timeline-mark sjtu">SJ</div>
-      <div><h3>Shanghai Jiao Tong University</h3><p>B.Eng. in Biomedical Engineering · Minor in Mathematics & Applied Mathematics</p><small>Research across clinical AI, single-cell bioinformatics, and medical imaging</small></div>
-    </article>
-  </div>
-</section>
-
 <section class="section" id="honors">
-  <div class="section-heading"><p class="section-kicker">Recognition</p><h2>Selected honors</h2></div>
-  <div class="honors-grid">
-    <article><strong>Top 0.01%</strong><h3>National Gold Medal</h3><p>China International College Students’ Innovation Competition · 2024</p></article>
-    <article><strong>Top 1.5%</strong><h3>Honorable Mention</h3><p>World AI for Science Prize, Life Science Track</p></article>
-    <article><strong>Top 2%</strong><h3>Chen Yazhu Scholarship</h3><p>Shanghai Jiao Tong University · 2024</p></article>
-    <article><strong>International</strong><h3>Honorable Mention</h3><p>Mathematical Contest in Modeling · 2022</p></article>
+  <div class="section-heading">
+    <p class="section-kicker">Recognition</p>
+    <h2>Selected honors</h2>
   </div>
+  <ul class="honor-list">
+    <li><time>2024</time><p><strong>National Gold Medal</strong>, China International College Students’ Innovation Competition <span>· Top 0.01%</span></p></li>
+    <li><time>2024</time><p><strong>Chen Yazhu Scholarship</strong>, Shanghai Jiao Tong University <span>· Top 2%</span></p></li>
+    <li><time>2024</time><p><strong>Honorable Mention</strong>, World AI for Science Prize — Life Science Track <span>· Top 1.5%</span></p></li>
+    <li><time>2022</time><p><strong>Honorable Mention</strong>, Mathematical Contest in Modeling</p></li>
+  </ul>
 </section>
 
-<section class="contact-panel" id="contact">
-  <p class="section-kicker">Let’s connect</p>
-  <h2>Interested in reliable AI for biomedical discovery?</h2>
-  <p>I welcome conversations about multimodal learning, single-cell foundation models, computational pathology, medical imaging, and computational medicine.</p>
-  <div class="intro-actions">
-    <a class="button button-light" href="mailto:haoyunzh@umich.edu">haoyunzh@umich.edu</a>
-    <a class="button button-outline-light" href="https://www.linkedin.com/in/haoyun-zhang-1278622bb" target="_blank" rel="noopener">LinkedIn ↗</a>
+<section class="section contact-section" id="contact">
+  <div class="section-heading">
+    <p class="section-kicker">Contact</p>
+    <h2>Get in touch</h2>
   </div>
+  <p>I welcome conversations about AI for healthcare, computational biology, and medical imaging.</p>
+  <p><a class="text-link" href="mailto:haoyunzh@umich.edu">haoyunzh@umich.edu</a> <span class="link-divider">·</span> <a class="text-link" href="https://www.linkedin.com/in/haoyun-zhang-1278622bb" target="_blank" rel="noopener">LinkedIn ↗</a></p>
 </section>
