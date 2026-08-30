@@ -47,11 +47,10 @@ body {
 .sidebar .author__name { margin-top: 20px; font-family: "Montserrat", sans-serif; font-size: 1.45rem; font-weight: 500; }
 .author__bio { margin-top: 8px; color: #7a8491; font-size: .95rem !important; line-height: 1.45; }
 .author__urls-wrapper { margin-top: 12px; }
-.author__urls { display: flex !important; flex-wrap: wrap; justify-content: center; gap: 4px 11px; }
+.author__urls { display: flex !important; width: max-content; max-width: 100%; margin: 0 auto; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; gap: 7px; text-align: left; }
 .author__urls li { margin: 0; }
 .author__urls a { color: var(--blue); font-size: .84rem; }
 .author__urls i { color: var(--blue); }
-.author__urls .author__desktop { flex-basis: 100%; }
 .author__urls-wrapper button { display: none; }
 
 .about-section { padding: 22px 0 62px; scroll-margin-top: 70px; }
@@ -82,7 +81,6 @@ body {
 .pub-content h3 { margin: 0 0 7px; color: #20252d; font-size: 1rem; font-weight: 600; line-height: 1.45; }
 .pub-content p { margin: 5px 0; color: var(--muted); font-size: .87rem; line-height: 1.48; }
 .pub-content .venue { color: #48566a; }
-.publication-active { background: #fafbfc; }
 .link-row { display: flex; gap: 7px; margin-top: 9px; }
 .link-row a { display: inline-block; padding: 3px 9px; border: 1px solid var(--blue); border-radius: 4px; font-size: .72rem; font-weight: 700; }
 .link-row a:hover { color: white; background: var(--blue); }

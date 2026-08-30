@@ -11,14 +11,14 @@ redirect_from:
 <section class="about-section" id="about">
   <h1>About Me</h1>
   <p>Hi! I am an M.S. student in Biomedical Engineering at the <a href="https://bme.umich.edu/" target="_blank" rel="noopener">University of Michigan</a>. Before coming to Ann Arbor, I received my B.Eng. in Biomedical Engineering, with a minor in Mathematics and Applied Mathematics, from <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a> in 2025.</p>
-  <p>My research work primarily focuses on AI for healthcare, computational biology, medical imaging, and more. As an AI-for-medicine researcher, I would like to bridge the gap between AI and medicine and make an impact in the healthcare field.</p>
+  <p>My research spans AI for healthcare, computational biology, bioinformatics, and medical imaging. Building on a strong computational background and close collaboration with clinicians, I develop methods to uncover actionable insights from large-scale biomedical and clinical data and translate them into better disease prediction, treatment, and prevention. Ultimately, I hope to bridge engineering and biomedicine to address critical clinical challenges.</p>
 
   <div class="about-details">
     <div class="detail-column">
       <h2>Interests</h2>
       <ul class="icon-list">
         <li><i class="fas fa-book" aria-hidden="true"></i><span>Artificial Intelligence in Medicine and Health</span></li>
-        <li><i class="fas fa-book" aria-hidden="true"></i><span>Computational Biology</span></li>
+        <li><i class="fas fa-book" aria-hidden="true"></i><span>Computational Biology &amp; Bioinformatics</span></li>
         <li><i class="fas fa-book" aria-hidden="true"></i><span>Medical Imaging</span></li>
         <li><i class="fas fa-book" aria-hidden="true"></i><span>Multimodal Learning</span></li>
       </ul>
@@ -44,7 +44,7 @@ redirect_from:
   <div class="news-list">
     <article><time>2026.06</time><p>Began a new research direction on patient similarity and retrieval with Prof. Joyce Yanran Wang.</p></article>
     <article><time>2025.08</time><p>Began the M.S. in Biomedical Engineering at the University of Michigan.</p></article>
-    <article><time>2025.05</time><p>Our multicenter, multimodal IPF prognosis study was presented in <em>AJRCCM</em>.</p></article>
+    <article><time>2025.05</time><p>Our abstract on multicenter, multimodal IPF prognosis was published in <em>AJRCCM</em>; the full manuscript is under review.</p></article>
     <article><time>2024.11</time><p><em>easySCF</em> was published in <em>Bioinformatics</em>.</p></article>
   </div>
 </section>
@@ -55,6 +55,15 @@ redirect_from:
     <a class="section-link" href="https://scholar.google.com/citations?user=cYJ8e80AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
   </div>
   <div class="publication-list">
+    <article class="publication-item">
+      <div class="pub-year">2026</div>
+      <div class="pub-content">
+        <h3>Progression of Interstitial Lung Abnormalities and Its Impact on Mortality in Patients with Lung Cancer Resection</h3>
+        <p>Ruolin Mao*, <strong>Haoyun Zhang*</strong>, Qing Chang, et al.</p>
+        <p class="venue"><em>Chinese Medical Journal Pulmonary and Critical Care Medicine</em>, 4(1), 81–91.</p>
+        <div class="link-row"><a href="https://mednexus.org/doi/abs/10.1016/j.pccm.2026.02.004" target="_blank" rel="noopener">Paper</a><a href="https://mednexus.org/doi/pdf/10.1016/j.pccm.2026.02.004" target="_blank" rel="noopener">PDF</a></div>
+      </div>
+    </article>
     <article class="publication-item">
       <div class="pub-year">2024</div>
       <div class="pub-content">
@@ -80,13 +89,6 @@ redirect_from:
         <p>Zeyu Chen*, Zheng Lin*, Zihan Lin, Qi Zhang, <strong>Haoyun Zhang</strong>, et al.</p>
         <p class="venue"><em>Therapeutic Advances in Respiratory Disease</em>, 18.</p>
         <div class="link-row"><a href="https://doi.org/10.1177/17534666241282538" target="_blank" rel="noopener">Paper</a></div>
-      </div>
-    </article>
-    <article class="publication-item publication-active">
-      <div class="pub-year">Active</div>
-      <div class="pub-content">
-        <h3>Current manuscripts</h3>
-        <p>Ongoing collaborative work in histology-to-spatial CNV prediction, interstitial lung abnormality outcomes, and multimodal IPF prognosis.</p>
       </div>
     </article>
   </div>
@@ -131,7 +133,7 @@ redirect_from:
     </article>
 
     <article class="research-card">
-      <div class="research-media"><img src="/images/ipf-prognosis.png" alt="ROC curves for IPF survival prediction"></div>
+      <div class="research-media"><img src="/images/ipf-cohort.jpeg" alt="Multicenter and multimodal IPF cohort study workflow"></div>
       <div class="research-content">
         <p class="research-meta">SJTU & Shanghai Chest Hospital · 2023.04—2025.08</p>
         <h3>Machine-Learning Prognostic Modeling for Idiopathic Pulmonary Fibrosis</h3>
