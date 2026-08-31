@@ -20,7 +20,51 @@
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
+<meta name="author" content="Haoyun Zhang">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "{{ site.url }}/",
+  "name": "Haoyun Zhang — Academic Homepage",
+  "description": {{ site.description | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "{{ site.url }}/#haoyun-zhang",
+    "name": "Haoyun Zhang",
+    "url": "{{ site.url }}/",
+    "image": "{{ site.url }}/images/haoyun-profile.jpg",
+    "jobTitle": "M.S. Student in Biomedical Engineering",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Michigan",
+      "url": "https://umich.edu/"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Shanghai Jiao Tong University",
+      "url": "https://en.sjtu.edu.cn/"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=cYJ8e80AAAAJ",
+      "https://www.linkedin.com/in/haoyun-zhang-1278622bb",
+      "https://github.com/HaoyunZhang2003"
+    ],
+    "knowsAbout": [
+      "AI for healthcare",
+      "Computational biology",
+      "Bioinformatics",
+      "Medical imaging",
+      "Multimodal learning"
+    ]
+  }
+}
+</script>
+{% endif %}
 
 
 <!-- Support for MatJax -->

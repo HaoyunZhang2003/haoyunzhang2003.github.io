@@ -65,21 +65,21 @@ redirect_from:
       </div>
     </article>
     <article class="publication-item">
-      <div class="pub-year">2024</div>
-      <div class="pub-content">
-        <h3>easySCF: A Tool for Enhancing Interoperability Between R and Python for Efficient Single-Cell Data Analysis</h3>
-        <p><strong>Haoyun Zhang*</strong>, Wentao Zhang*, Shuai Zhao, Guangyu Xu, Yi Shen, Feng Jiang, An Qin, Lei Cui.</p>
-        <p class="venue"><em>Bioinformatics</em>, 40(12), btae710.</p>
-        <div class="link-row"><a href="https://doi.org/10.1093/bioinformatics/btae710" target="_blank" rel="noopener">Paper</a><a href="https://github.com/xleizi/easySCF" target="_blank" rel="noopener">Code</a></div>
-      </div>
-    </article>
-    <article class="publication-item">
       <div class="pub-year">2025</div>
       <div class="pub-content">
         <h3>The Prognosis of Idiopathic Pulmonary Fibrosis in Chinese Patients: A Multi-Center and Multi-Modal Cohort Study</h3>
         <p>Feng Li, Zeyu Chen, <strong>Haoyun Zhang</strong>, et al.</p>
         <p class="venue"><em>American Journal of Respiratory and Critical Care Medicine</em>.</p>
         <div class="link-row"><a href="https://doi.org/10.1164/ajrccm.2025.211.Abstracts.A1749" target="_blank" rel="noopener">Abstract</a></div>
+      </div>
+    </article>
+    <article class="publication-item">
+      <div class="pub-year">2024</div>
+      <div class="pub-content">
+        <h3>easySCF: A Tool for Enhancing Interoperability Between R and Python for Efficient Single-Cell Data Analysis</h3>
+        <p><strong>Haoyun Zhang*</strong>, Wentao Zhang*, Shuai Zhao, Guangyu Xu, Yi Shen, Feng Jiang, An Qin, Lei Cui.</p>
+        <p class="venue"><em>Bioinformatics</em>, 40(12), btae710.</p>
+        <div class="link-row"><a href="https://doi.org/10.1093/bioinformatics/btae710" target="_blank" rel="noopener">Paper</a><a href="https://github.com/xleizi/easySCF" target="_blank" rel="noopener">Code</a></div>
       </div>
     </article>
     <article class="publication-item">

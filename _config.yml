@@ -2,13 +2,13 @@ locale                   : "en-US"
 title                    : "Haoyun Zhang"
 title_separator          : "·"
 name                     : "Haoyun Zhang"
-description              : &description "Biomedical engineer developing reliable and interpretable machine learning for clinical and biological data."
+description              : &description "Haoyun Zhang's academic homepage. M.S. student in Biomedical Engineering at the University of Michigan researching AI for healthcare, computational biology, bioinformatics, and medical imaging."
 url                      : "https://haoyunzhang2003.github.io"
 baseurl                  : ""
 repository               : "HaoyunZhang2003/HaoyunZhang2003.github.io"
 
 author:
-  avatar           : "haoyun-portrait.png"
+  avatar           : "haoyun-profile.jpg"
   name             : "Haoyun Zhang"
   bio              : "M.S. Student in Biomedical Engineering"
   location         : "Ann Arbor, Michigan"
@@ -17,6 +17,14 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=cYJ8e80AAAAJ"
   github           : "HaoyunZhang2003"
   linkedin         : "haoyun-zhang-1278622bb"
+
+social:
+  type             : Person
+  name             : "Haoyun Zhang"
+  links:
+    - "https://scholar.google.com/citations?user=cYJ8e80AAAAJ"
+    - "https://www.linkedin.com/in/haoyun-zhang-1278622bb"
+    - "https://github.com/HaoyunZhang2003"
 
 teaser                   :
 breadcrumbs              : false
